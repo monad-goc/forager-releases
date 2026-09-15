@@ -1,4 +1,4 @@
-# Forager — Downloads
+# Forager - Downloads
 
 Public download host for [Forager](https://github.com/monad-goc/Forager), a free desktop media downloader.
 
