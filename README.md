@@ -1,8 +1,22 @@
-# Forager - Downloads
+# Forager Releases
 
-Public download host for [Forager](https://github.com/monad-goc/Forager), a free desktop media downloader.
+Installer downloads for the Prodlogik desktop app.
 
-- **[Latest release](https://github.com/monad-goc/forager-releases/releases/latest)** - Windows installer
-- The app updates itself from `latest.json` here
+## Download
 
-Licensed [MIT](LICENSE). Not affiliated with any platform.
+Grab the latest installer from the [Releases page](https://github.com/monad-goc/forager-releases/releases):
+
+- **Windows**: `.msi` or `.exe` installer
+- **macOS**: `.dmg` installer
+
+## First-run notes (unsigned builds)
+
+These builds are not code-signed yet, so your OS will warn you before the first run:
+
+- **macOS**: Gatekeeper will say the app "cannot be opened." Right-click the app and choose **Open**, or run:
+  ```
+  xattr -cr /Applications/Forager.app
+  ```
+- **Windows**: SmartScreen will show "Windows protected your PC." Click **More info** then **Run anyway**.
+
+Builds are produced by CI directly from the source repository; no source code is published here.
